@@ -9,7 +9,7 @@ import pyautogui
 import random
 import csv
 import instaloader
-from instabot import GetFollowees
+from users import GetFollowees
 
 chromedriver = "/home/marco/Downloads/chromedriver"
 options = webdriver.ChromeOptions()
