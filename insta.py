@@ -11,7 +11,7 @@ import csv
 import instaloader
 from users import GetFollowees
 
-chromedriver = "/home/marco/Downloads/chromedriver"
+chromedriver = "chromedriver"
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 options.add_argument("--incognito")
